@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #e9eff5;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .contact {
+    text-align: right;
+}
+
+.navbar {
+    background-color: #1666c7;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.content h1 {
+    color: #5114e0;
+}
+
+.partners {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.partners .logos img {
+    margin: 10px;
+    max-width: 780px;
+}
+
+.footer {
+    background-color: #5114e0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.section {
+    display: none;
+}
+
+/* Pokaż tylko aktywną sekcję */
+.section.active {
+    display: block;
+}
+.p
+{
+    font-size: 20px;
+}
+.logo
+{
+   
+    align-items:center;
+    justify-content:center;
+
+}
+.logoimg
+{
+     max-width:100px;
+}
